@@ -1,128 +1,132 @@
-# 💸 **Controle de Contas** 🏦
+# 💸 **Financial Controll** 🏦
 
-Um programa interativo para gerenciar finanças pessoais, incluindo gastos, ganhos, controle de saldo, extratos e exclusão de registros. Ideal para quem deseja organizar seu orçamento de maneira simples e eficiente.
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-O programa implementa funcionalidades essenciais para gerenciamento financeiro:
-
-- **Adicionar Gastos e Ganhos:** Classificação por tipo (essencial, supérfluo, constante, ou inconstante).
-- **Mostrar Gastos e Ganhos:** Visualização de resumos financeiros.
-- **Excluir Registros:** Permite a remoção de gastos ou ganhos, ajustando o saldo automaticamente.
-- **Mostrar Extrato:** Exibição completa das transações realizadas com saldo atualizado.
-- **Gerenciamento de Crédito:** Opção de adicionar crédito ao saldo principal.
+An interactive program to manage personal finances, including expenses, income, balance control, statements, and record deletion. Ideal for those who want to organize their budget in a simple and efficient way.
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-### Funcionalidades:
-- **Adicionar Gasto:** Divisão entre gastos essenciais (ex.: aluguel, saúde) e gastos supérfluos (ex.: entretenimento).
-- **Adicionar Ganho:** Registros com diferenciação entre ganhos constantes e ganhos variáveis.
-- **Resumo de Gastos e Ganhos:** Exibição detalhada de todos os gastos e ganhos.
-- **Excluir Gastos/Ganhos:** Remove transações com ajuste no saldo automaticamente.
-- **Extrato Completo:** Apresenta todos os lançamentos realizados com seu impacto no saldo.
-- **Gerenciamento de Crédito:** Ajuste do saldo com base em um limite de crédito configurado no início.
+The program implements essential functionalities for financial management:
 
----
-
-## ⚙️ **Configuração**
-
-### Pré-requisitos
-- Python 3.x deve estar instalado no sistema.
+* **Add Expenses and Income:** Categorized by type (essential, non-essential, fixed, or variable).
+* **View Expenses and Income:** Visual summaries of financial records.
+* **Delete Records:** Allows removal of expenses or income, automatically adjusting the balance.
+* **View Statement:** Complete display of all transactions with updated balance.
+* **Credit Management:** Option to add credit to the main balance.
 
 ---
 
-## ▶️ **Como Executar**
+## 🛠️ **Key Features**
 
-1. Clone este repositório no seu ambiente local:
+### Functionalities:
+
+* **Add Expense:** Differentiation between essential expenses (e.g., rent, healthcare) and non-essential expenses (e.g., entertainment).
+* **Add Income:** Records categorized as either fixed income or variable income.
+* **Summary of Expenses and Income:** Detailed display of all expenses and income.
+* **Delete Expenses/Income:** Removes transactions and automatically adjusts the balance.
+* **Complete Statement:** Shows all transactions performed and their impact on the balance.
+* **Credit Management:** Adjusts the balance based on a credit limit set at the beginning.
+
+---
+
+## ⚙️ **Setup**
+
+### Prerequisites
+
+* Python 3.x must be installed on your system.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone this repository to your local environment:
+
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-financas.git
+git clone https://github.com/jp9141joao/financial-controll.git
 ```
 
-2. Instale qualquer dependência necessária caso necessário (não há dependências externas para este código).
+2. Install any necessary dependencies if required (there are no external dependencies for this code).
 
-3. Execute o código no terminal com:
+3. Run the code in the terminal with:
+
 ```bash
-python seu_arquivo.py
+python your_file.py
 ```
 
 ---
 
-## 🎮 **Como Funciona**
+## 🎮 **How It Works**
 
-### Menu Principal:
+### Main Menu:
 
-Após iniciar, o usuário verá o seguinte menu:
+After starting, the user will see the following menu:
 
 ```
 Menu:
-1 - Adicionar gastos
-2 - Adicionar ganhos
-3 - Mostrar gastos
-4 - Mostrar ganhos
-5 - Mostrar extrato
-6 - Sair
+1 - Add expenses
+2 - Add income
+3 - Show expenses
+4 - Show income
+5 - Show statement
+6 - Exit
 ```
 
-### Opções:
+### Options:
 
-1. **Adicionar Gastos:**  
-   Inclui gastos essenciais ou supérfluos com ajuste automático no saldo.
+1. **Add Expenses:**
+   Includes essential or non-essential expenses with automatic balance adjustment.
 
-2. **Adicionar Ganhos:**  
-   Inclui ganhos como salário ou investimento com opção de classificar se é constante ou inconstante.
+2. **Add Income:**
+   Includes income such as salary or investments, with the option to classify as fixed or variable.
 
-3. **Mostrar Gastos:**  
-   Exibe uma lista com todos os gastos categorizados.
+3. **Show Expenses:**
+   Displays a list of all categorized expenses.
 
-4. **Mostrar Ganhos:**  
-   Exibe uma lista com todos os ganhos categorizados.
+4. **Show Income:**
+   Displays a list of all categorized income.
 
-5. **Mostrar Extrato:**  
-   Exibe todas as transações (gastos e ganhos) e exibe o saldo atualizado.
+5. **Show Statement:**
+   Displays all transactions (expenses and income) with the updated balance.
 
-6. **Sair:**  
-   Encerra o programa.
+6. **Exit:**
+   Closes the program.
 
 ---
 
-## 💬 **Tecnologias Utilizadas**
+## 💬 **Technologies Used**
 
-- **Python 3.x**: Lógica central do programa.
-- Manipulação de dados com listas simples.
-- Limpeza da tela com `os.system('cls')` para experiência amigável no console.
+* **Python 3.x**: Core program logic.
+* Data handling with simple lists.
+* Screen clearing with `os.system('cls')` for a user-friendly console experience.
 
 ---
 
-## 📊 **Exemplo de Uso**
+## 📊 **Example Usage**
 
-Após iniciar o programa, você verá opções interativas no console:
+After starting the program, you will see interactive options in the console:
 
 ```
-Digite o saldo da sua conta: R$1000
-Sua conta possui crédito?
-1- Sim
-2- Não
+Enter your account balance: $1000
+Does your account have credit?
+1- Yes
+2- No
 R: 1
-Digite o limite da sua conta: R$500
-Saldo + crédito configurado.
+Enter your account credit limit: $500
+Balance + credit configured.
 ```
 
-Menu principal com opções:
+Main menu with options:
 
 ```
 Menu:
-1 - Adicionar gastos
-2 - Adicionar ganhos
-3 - Mostrar gastos
-4 - Mostrar ganhos
-5 - Mostrar extrato
-6 - Sair
+1 - Add expenses
+2 - Add income
+3 - Show expenses
+4 - Show income
+5 - Show statement
+6 - Exit
 ```
 
 ---
 
-Agora você pode organizar suas finanças de forma prática com este gerenciador! 💡✨
+Now you can organize your finances easily with this manager! 💡✨
